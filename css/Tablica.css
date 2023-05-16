@@ -1,0 +1,61 @@
+@media screen and (max-width: 1000px) {
+    .gridContainer {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    table.responsiveTableLayout {
+        width: 100%;
+
+    }
+
+        table.responsiveTableLayout thead {
+            display: none;
+        }
+
+        table.responsiveTableLayout tbody {
+            width: 100%;
+        }
+
+        table.responsiveTableLayout tr, table.responsiveTableLayout th, table.responsiveTableLayout td {
+            display: block;
+            padding: 0;
+        }
+        table.responsiveTableLayout th:nth-child(n), table.responsiveTableLayout td:nth-child(n) {
+            width:auto;
+        }
+
+        table.responsiveTableLayout tr {
+            border-bottom: none;
+            margin: 0 0 10px 0;
+            /*padding: 1px;*/
+        }
+
+        table.responsiveTableLayout td {
+            /*padding: 4px 0 4px 0;*/
+            border-bottom: 1px dotted #ccc;
+            text-align: right;
+        }
+
+            table.responsiveTableLayout td[data-title]:before {
+                content: attr(data-title);
+                font-weight: bold;
+                display: inline-block;
+                content: attr(data-title);
+                float: left;
+              color:teal;
+                /*margin-right: 0.5em;
+                font-size: 0.95em;*/
+            }
+
+            table.responsiveTableLayout td:last-child {
+                padding-right: 0;
+              padding-bottom:5px;
+                border-bottom: 2px solid #ccc;
+
+            }
+
+            table.responsiveTableLayout td:empty {
+                display: none;
+            }
+}

@@ -1,0 +1,134 @@
+.gumb{
+    border-radius:2rem ;
+    color: white;
+    background-color: #E06136;
+    border-style: none;
+}
+.naslov{
+    margin-top: 30px;
+    padding-bottom:10px;
+}
+.naslov:hover{
+
+text-decoration: none;
+}
+
+.kontakt-karte{
+    display: flex;
+    background-color: #9bbff4;
+}
+
+.naslov{
+    margin-bottom:15px;
+}
+
+.gumb{
+    padding:1px 15px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    margin-bottom:40px;
+}
+.kontakt-karte{
+    flex-direction: column;
+}
+.kontakt-1{
+    background-color: white ;
+    margin: 1%;
+    border-radius: 2rem;
+    text-align: center;
+}
+.google-maps{
+    width: 100% ;
+    height: 400px;
+}
+
+@media (min-width: 768px) {
+
+.naslov{
+    margin-top: 60px;
+    margin-bottom:15px;
+}
+
+.gumb{
+    padding:1px 15px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    margin-bottom:40px;
+}
+
+.kontakt-karte{
+    flex-direction: row;
+}
+.kontakt-1{
+    width: 30%;
+    background-color: white ;
+    margin: 1%;
+    border-radius: 2rem;
+}
+
+.google-maps{
+    width: 70%;
+}
+}
+
+
+@media (min-width: 992px) {
+
+.naslov{
+    margin-bottom:15px;
+    margin-top: 60px;
+}
+
+.gumb{
+    padding:1px 15px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    margin-bottom:40px;
+}
+
+.kontakt-1{
+    width: 30%;
+    background-color: white ;
+    margin: 1%;
+    border-radius: 2rem;
+}
+
+.google-maps{
+    width: 70%;
+}
+.kontakt-karte{
+    flex-direction: row;
+}
+}
+
+@media (min-width: 1200px) {
+
+
+.naslov{
+    margin-bottom:15px;
+    margin-top: 50px;
+
+}
+
+.gumb{
+    padding:1px 15px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    margin-bottom:40px;
+}
+
+.kontakt-1{
+    width: 30%;
+    background-color: white ;
+    margin: 1%;
+    border-radius: 2rem;
+}
+
+.google-maps{
+    width: 70%;
+}
+.kontakt-karte{
+    flex-direction: row;
+}
+}
+

@@ -1,0 +1,208 @@
+.bg-plava{
+    background-color: #0FA3AB;
+}
+
+h3{
+    font-weight: bold;
+    color: white;
+}
+
+.opis{
+    color: white;
+}
+
+.opisTamni{
+    color: black;
+}
+
+.naslovTamni{
+    color: black;
+}
+.link:hover{
+    text-decoration-color: white;
+}
+.naslovTamni:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    
+}
+
+.apartman{
+    transition: all 0.3s ease-in-out;
+}
+.apartman:hover {
+    transform: scale(1.05);
+  }
+
+
+
+.imeApartmana{
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.opis{
+    font-size: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+}
+
+.apartman{
+    width:100%; 
+    padding-top:15%; 
+    padding-bottom:15%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.order-1{
+    order:1;
+}
+
+.order-2{
+    order:2;
+}
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+
+.imeApartmana{
+    text-align: left;
+    padding-right: 50px;
+    margin-top: 40px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.opis{
+    font-size: 14px;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.apartman{
+    width:110%; 
+    padding-top:15%; 
+    padding-bottom:15%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    
+.order-1{
+    order:2;
+}
+
+.order-2{
+    order:1;
+}
+}
+
+@media (min-width: 768px) {
+
+    .imeApartmana{
+        text-align: left;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-top: 70px;
+        font-size: 25px;
+    }
+    
+    .opis{
+        font-size: 16px;
+        padding-left: 60px;
+        padding-right: 60px;
+        text-align: left;
+    }
+    
+    .apartman{
+        width:110%; 
+        padding-top:15%; 
+        padding-bottom:15%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+        
+    .order-1{
+        order:2;
+    }
+    
+    .order-2{
+        order:1;
+    }
+    }
+
+
+@media (min-width: 992px)  { 
+
+.imeApartmana{
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 100px;
+}
+
+.opis{
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: left;
+}
+
+.apartman{
+    width:100%; 
+    padding-top:15%; 
+    padding-bottom:15%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.order-1{
+    order:2;
+}
+
+.order-2{
+    order:1;
+}
+}
+
+@media (min-width: 1200px) {
+
+.imeApartmana{
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 150px;
+}
+
+.opis{
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: left;
+}
+
+.apartman{
+    width:100%; 
+    padding-top:15%; 
+    padding-bottom:15%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.order-1{
+    order:2;
+}
+
+.order-2{
+    order:1;
+}
+}

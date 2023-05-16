@@ -1,0 +1,150 @@
+*{
+    font-family:'Segoe UI';
+    
+}
+html{scroll-behavior:smooth}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 150%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slika1 {
+    /* The image used */
+    background-image: url("/assets/Apartman1.png");
+  }
+  .slika2 {
+    /* The image used */
+    background-image: url("/assets/Apartman2.png");
+  }
+  .slika3 {
+    /* The image used */
+    background-image: url("/assets/Apartman3.png");
+  }
+
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Apply styles to the form container */
+form {
+  margin: auto;
+  width: 50%;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Apply styles to the form labels */
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Apply styles to the form inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+/* Apply styles to the select element */
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  appearance: none;
+  -webkit-appearance: none;
+  background: url('https://cdn3.iconfinder.com/data/icons/fatcow/32x32_0270/page_white_edit.png') no-repeat right center;
+  background-size: 25px;
+}
+
+/* Apply styles to the textarea */
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+/* Apply styles to the submit button */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Apply styles to the terms checkbox */
+input[type="checkbox"] {
+  margin-bottom: 15px;
+}
+
+/* Apply styles to the form error messages */
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: #ff7f7f;
+}
+
+input:invalid:focus,
+select:invalid:focus,
+textarea:invalid:focus {
+  border-color: #ff3d3d;
+  box-shadow: 0 0 5px rgba(255, 61, 61, 0.5);
+}
+
+hr{
+  border-color: white;
+}
+.naslov{
+  font-size: larger;
+}
+.crvena{
+  color:white;
+}
